@@ -21,7 +21,7 @@ You can create the installer entirely using your mouse, no terminal required!
 
 ### Option 1: The Easy Way (GUI) 🖱️
 
-1.  **Download** `generator.sh`, `logo.png`, and `icon.png` from this repository.
+1.  **Download** `create_installer.sh`, `logo.jpg`, and `icon.jpg` from this repository.
 2.  **Right-click** on `generator.sh` and select **Properties**.
 3.  Go to the **Permissions** tab and check **"Is executable"** (or "Allow executing file").
 4.  **Double-click** the file and choose **"Run"**.
@@ -46,7 +46,7 @@ If you prefer the command line:
 
 ```bash
 # 1. Make executable
-chmod +x generator.sh
+chmod +x create_installer.sh
 
 # 2. Run
-./generator.sh
+./create_installer.sh
