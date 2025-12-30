@@ -31,6 +31,15 @@ You can create the installer entirely using your mouse, no terminal required!
 
 The script will generate a standalone `.desktop` installer on your Desktop.
 
+## 📦 Requirements
+
+* `kdialog` (Usually pre-installed on KDE, but can be installed via package manager).
+* `inotify-tools` (The script will help you install this automatically).
+
+## 👨‍💻 Author
+**Aleksandr Nesterenko**
+Ver: 2.0 Ultimate
+
 ### Option 2: The Terminal Way 💻
 
 If you prefer the command line:
@@ -41,12 +50,3 @@ chmod +x generator.sh
 
 # 2. Run
 ./generator.sh
-
-## 📦 Requirements
-
-* `kdialog` (Usually pre-installed on KDE, but can be installed via package manager).
-* `inotify-tools` (The script will help you install this automatically).
-
-## 👨‍💻 Author
-**Aleksandr Nesterenko**
-Ver: 2.0 Ultimate
